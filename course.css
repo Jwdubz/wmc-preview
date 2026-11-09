@@ -235,3 +235,6 @@ html.static .gs,html.static .grain{animation-play-state:paused}
 html.static .w-title:after{animation-play-state:paused}
 @media (max-width:760px){.w-mono{font-size:70vw;right:-20vw;top:30%}}
 @media (min-width:761px){.wm{white-space:nowrap;font-size:clamp(40px,6vw,112px)}}
+/* homepage gold pill */
+.w-join{--bb:var(--gold);--bf:#0b0b0a;--bh:var(--gold2);background:var(--gold)!important;color:#0b0b0a!important;padding:13px 30px;min-height:52px;box-shadow:0 6px 22px rgba(0,0,0,.28);text-shadow:none}
+.w-join:hover{background:var(--gold2)!important}
